@@ -408,3 +408,68 @@ home_credit_dashboard/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+---
+
+## 🏗️ Create the Project Structure Automatically
+
+If you want to create the complete Home Credit Dashboard project structure from scratch, you can use the included batch file:
+
+**`create_home_credit_project.bat`**
+
+### How to use
+
+1. Download `create_home_credit_project.bat` from this repository.
+2. Double-click the BAT file.
+3. Enter a new project folder name when prompted.
+4. The script will automatically create the project structure.
+
+### The script creates
+
+- `app.py`
+- `data/`
+- `pages/`
+- `utils/`
+- `Screenshots/`
+- 20 Streamlit dashboard pages
+- 6 utility Python files
+
+### Project Structure
+
+```text
+home_credit_dashboard/
+│
+├── app.py
+│
+├── data/
+│
+├── pages/
+│   ├── 01_Executive_Overview.py
+│   ├── 02_Default_Analysis.py
+│   ├── 03_Demographic_Analysis.py
+│   ├── 04_Age_Analysis.py
+│   ├── 05_Gender_Analysis.py
+│   ├── 06_Income_Analysis.py
+│   ├── 07_Credit_Analysis.py
+│   ├── 08_Annuity_Analysis.py
+│   ├── 09_Income_vs_Credit.py
+│   ├── 10_Annuity_Burden.py
+│   ├── 11_Education_Analysis.py
+│   ├── 12_Employment_Analysis.py
+│   ├── 13_Family_Analysis.py
+│   ├── 14_Housing_Assets.py
+│   ├── 15_Contract_Analysis.py
+│   ├── 16_External_Score_Analysis.py
+│   ├── 17_Regional_Risk.py
+│   ├── 18_Missing_Value_Analysis.py
+│   ├── 19_Correlation_Risk_Factors.py
+│   └── 20_Customer_Risk_Explorer.py
+│
+├── utils/
+│   ├── data_loader.py
+│   ├── preprocessing.py
+│   ├── filters.py
+│   ├── features.py
+│   ├── kpis.py
+│   └── charts.py
+│
+└── Screenshots/
